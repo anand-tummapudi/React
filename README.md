@@ -56,9 +56,13 @@ export default Layout;
 ``` javascript
 pnpm install redux react-redux redux-thunk
 ```
+
 **What is Vite**
+
 Vite: The "engine" that manages the development server, compiles your code (like JSX and TypeScript) into standard browser-readable JavaScript, and bundles the app for production.
+
 **What is Redux**
+
 Redux is an open-source JavaScript library for managing and centralizing application state, commonly used with libraries like React or Angular. It acts as a predictable, central store for data, allowing for easier debugging, testing, and state sharing across components without prop drilling. 
 
 

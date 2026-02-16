@@ -2,6 +2,7 @@ import axios from 'axios'
 
 import './App.css'
 import Layout from './components/layout/layout';
+import BookContainer from './components/book/BookContainer';
 
 function App() {
   
@@ -13,9 +14,7 @@ function App() {
 
   return (
     <Layout>
-      <div>
-        <h1>Welcome to Nihi Book Store </h1>
-      </div>
+       <BookContainer/>
     </Layout>
   )
 }

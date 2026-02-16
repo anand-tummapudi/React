@@ -53,5 +53,11 @@ export default Layout;
 
 ```
 
+**Install Redux**
+``` javascript
+pnpm install redux react-redux redux-thunk
+```
+
+
 
 

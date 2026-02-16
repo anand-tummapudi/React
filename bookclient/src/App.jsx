@@ -1,6 +1,7 @@
 import axios from 'axios'
 
 import './App.css'
+import Layout from './components/layout/layout';
 
 function App() {
   
@@ -11,11 +12,11 @@ function App() {
   });
 
   return (
-    <>
+    <Layout>
       <div>
-        My First App
-      </div>      
-    </>
+        <h1>Welcome to Nihi Book Store </h1>
+      </div>
+    </Layout>
   )
 }
 

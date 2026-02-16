@@ -44,7 +44,8 @@ export default Layout;
 
 ** To create unit tests using vitest, we need to install vitest package **
 
-```pnpm install -D vitest @testing-library/react @testing-library/jest-dom happy-dom
+``` javascript
+	pnpm install -D vitest @testing-library/react @testing-library/jest-dom happy-dom
 
    pnpm install -D @testing-library/jest-dom happy-dom
    

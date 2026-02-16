@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/books/v1")
+@RequestMapping("/api/v1/books")
 public class BookController {
 
     @GetMapping

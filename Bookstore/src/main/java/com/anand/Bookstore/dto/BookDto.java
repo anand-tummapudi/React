@@ -23,6 +23,8 @@ public class BookDto {
     @Builder.Default
     private boolean available = true;
 
+    private  int releaseYear;
+
     @Builder.Default
     private List<String> tags = new ArrayList<>();
 
